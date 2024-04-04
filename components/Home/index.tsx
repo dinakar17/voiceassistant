@@ -64,6 +64,7 @@ export default function Home() {
         </View>
       </View>
       <View style={styles.voiceContainer}>
+        
         <Record
             onSpeechEnd={(value) => {
                 setSpeechText(value[0]);
